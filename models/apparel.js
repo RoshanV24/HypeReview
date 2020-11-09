@@ -1,6 +1,6 @@
 ﻿var mongoose = require("mongoose");
 
-var shoeSchema = new mongoose.Schema({
+var apparelSchema = new mongoose.Schema({
    name: String,
    image: String,
    description: String,
@@ -19,4 +19,4 @@ var shoeSchema = new mongoose.Schema({
    ]
 });
 
-module.exports = mongoose.model("Hype", shoeSchema);
+module.exports = mongoose.model("Hype", apparelSchema);
